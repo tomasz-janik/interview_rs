@@ -1,0 +1,7 @@
+package com.tomaszjanik.zadanie.exceptions;
+
+public class InvalidRequestException extends RuntimeException {
+    public InvalidRequestException(String message) {
+        super(message);
+    }
+}
